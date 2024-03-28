@@ -9,14 +9,15 @@
 5. Use OpenAIEmbeddings to convert the text chunks to embeddings
 6. Create a pinecone index with appropriate dimensions
 7. Store the embedding in Pinecone Vector database
-8. Use and OpenAI LLM model 
+8. Use an OpenAI LLM model
+9. Query the llm model as per our requirement
 
 
 ## Please follow the below steps to execute this note book
 
 1. Create a conda environment
 ```bash
-conda create -n smartphone_qna python=3.9 -y
+conda create -n mobile_qna python=3.9 -y
 ```
 2. Install Jupyter notebook
 ```bash
